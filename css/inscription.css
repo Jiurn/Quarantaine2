@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+article{
+    width: 100%;
+    height: 70vh;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+input[type=text], input[type=password]{
+    display: block;
+    margin: 1.5rem auto 1.5rem auto
+}
+button[type=submit]{
+    display: block;
+    margin: auto;
+}
+input[type=checkbox]{
+    margin: 0 0.35rem 0 0;
+}
+#inscription{
+    width: 106.7%;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    display: block;
+    text-align: center;
+}
+.inscription_input{
+    font-size: 1.3rem;
+    color: #403866;
+    width: 97%;
+    background-color: #e6e6e6;
+    height: 3.5rem;
+    padding: 0 20px 0 20px;
+    border: none;
+    border-radius: 7px;
+}
+#connecter_compte{
+    position: relative;
+    width: 109.5%;
+    margin-bottom: 1rem;
+}
+#connecter_compte a{
+    color: #827ffe;
+    position: inherit;
+    cursor: pointer;
+}
+#forgot{
+    position: absolute;
+    right: 0;
+}
+#connecter_compte{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+button{
+    color: #fff;
+    width: 111%;
+    height: 3.5rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #827ffe;
+}
+.nav-links{
+    height: 52px;
+}
+p{
+    font-size: 2rem;
+    color: #827ffe;
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0;
+}
+@media (max-width: 991px){
+    form{
+        width: 60%;
+    }
+    #inscription {
+        width: 106.7%;
+        font-size: 4rem;
+    }
+    .inscription_input {
+        font-size: 2.5rem;
+        width: 105%;
+        height: 5.5rem;
+    }
+    label{
+        font-size: 2rem;
+    }
+    input[type=checkbox]{
+        margin: 0 0.6rem 0 0;
+        height: 20px;
+        width: 30px;
+    }
+    div a {
+        font-size: 2rem;
+    }
+    button {
+        width: 111%;
+        height: 5rem;
+        font-size: 2rem;
+    }
+    div{
+        margin-top: 3rem;
+    }
+}

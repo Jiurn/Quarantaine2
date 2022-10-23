@@ -1,0 +1,15 @@
+main{
+    display: flex;
+}
+.nav-pills{
+    width: 30%;
+    color: black;
+    background-color: white;
+    margin: 2rem 0 0 0;
+}
+.nav-pills a{
+    margin: 1rem 1rem 1rem 3rem;
+}
+div.tab-content, div.tab-pane{
+    width: 60%;
+}

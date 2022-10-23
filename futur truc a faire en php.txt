@@ -1,0 +1,8 @@
+- Quand un futur utilisateur voudra aller sur une page de parametre par exemple, mais il est pas connecté a son compte, pour que sa retourne sur la page login:
+
+if(isset($_POST['login'])){
+	$email = $_POST['email']
+	$password = $_POST['password']
+} else{
+	header("location: login.php")       <--- 
+}
