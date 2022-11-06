@@ -56,7 +56,7 @@
             <blockquote>
                 <div class="row flex" style="margin: 1rem">
                     <section id="text_gouv" class="jumbotron col-lg-8 " style="width: 100%;margin: 3rem 1rem ;padding: 2rem;"> <!-- Jumbotron qui contient les informations de ma job au gouvernement -->
-                        <p><span class="bold">Équipe finale d’inspection pour l’assurance de la qualité au <a href="../site_fete_a_luis/fete_a_luis.php" style="color: gray; text-decoration: none; cursor: auto">ESDC</a></span><span style="float: right" >2019</span></p><!-- Information sur la job du gouvernement -->
+                        <p><span class="bold">Équipe finale d’inspection pour l’assurance de la qualité au ESDC</span><span style="float: right" >2019</span></p><!-- Information sur la job du gouvernement -->
                         <ul>                                                                                                                                     <!-- Liste des informations sur ma job au gouvernement -->
                             <li>Expérience avec les outils gouvernementaux (matériaux informatiques et logiciels)</li>
                             <li>Migration de Windows Server 2008 à Windows Server 2016 (Configuration de IIS,
